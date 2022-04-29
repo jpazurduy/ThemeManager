@@ -1,0 +1,15 @@
+fonts:
+  inputs: ../ThemeManager/Resources/Fonts
+  outputs:
+    - templateName: swift5
+      output: ../ThemeManager/Resources/Generated/FontFamily.swift
+colors:
+  inputs: ../ThemeManager/Resources/Colors/color.json
+  outputs:
+    - templateName: swift5
+      output: ../ThemeManager/Resources/Generated/ColorName.swift
+xcassets:
+  inputs: ../ThemeManager/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: ../ThemeManager/Resources/Generated/Assets.swift
